@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: rgb(1, 1, 26);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(10, 16, 82);
+}
+
+nav ul{
+
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 22px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul li a:hover{
+    /* color: rgb(205, 205, 246); */
+    font-size: 1.01rem;
+    font-family: cursive;
+    color: rgb(181, 112, 246);
+
+}
+main hr{
+
+    border: 0;
+    background: rgb(210, 210, 233);
+    height: 1.2px;
+    margin: 40px 84px ;
+
+}
+
+
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+
+}
+.firstSection > div{
+    width: 36%;
+
+}
+
+.leftSection{  
+    font-size: 3rem;
+    
+    
+}
+.rightSection img{
+    width: 80%;   
+}
+
+.purple{
+    color: rgb(181, 112, 246);
+}
+
+.text-gray{
+    color: gray;
+}
+#element{
+    color: rgb(181, 112, 246);
+}
+.secondSection{
+max-width: 80vw;
+margin: auto;
+font-family: cursive;
+height: 80vh;
+
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+    
+    }
+    .secondSection .box{
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 1px 0;
+        display: flex;
+     
+    }
+    .secondSection .vertical{
+        height: 100px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+    } 
+
+    footer{
+        background-color: rgb(67, 28, 67);
+        height: 233px;
+    }
+
+    .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+    }
+    .footer ul{
+
+        list-style: none;
+    }
+
